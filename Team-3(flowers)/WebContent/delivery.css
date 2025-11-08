@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subtext {
+    color: #ff4081;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    margin-bottom: 40px;
+}
+
+.search-box input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.popular-cities {
+    margin-top: 20px;
+}
+
+.popular-cities h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cities {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.countries {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.country {
+    margin: 10px;
+    text-align: center;
+}
+.country img {
+    width: 100px;
+    height: auto;
+}
+.city {
+    margin: 10px;
+    text-align: center;
+}
+
+.city img {
+    width: 100px;
+    height: auto;
+}
+
+.city p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.flag {
+    width: 100px; /* or any desired width */
+    height: auto; /* maintain aspect ratio */
+    object-fit: cover; /* ensure the image fits well within the dimensions */
+}
+/* Footer Styles */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.footer-item {
+    text-align: center;
+    flex: 1;
+}
+
+.footer-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.footer-item p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin: 5px 0;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #333;
+}
